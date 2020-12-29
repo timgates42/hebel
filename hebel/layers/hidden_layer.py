@@ -53,7 +53,7 @@ class HiddenLayer(object):
 
     parameters : array_like of ``GPUArray``
         Parameters used to initialize the layer. If this is omitted,
-        then the weights are initalized randomly using *Bengio's rule*
+        then the weights are initialized randomly using *Bengio's rule*
         (uniform distribution with scale :math:`4 \cdot \sqrt{6 /
         (\mathtt{n\_in} + \mathtt{n\_out})}` if using sigmoid
         activations and :math:`\sqrt{6 / (\mathtt{n\_in} +

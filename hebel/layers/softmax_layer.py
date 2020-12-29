@@ -42,7 +42,7 @@ class SoftmaxLayer(TopLayer):
 
     parameters : array_like of ``GPUArray``
         Parameters used to initialize the layer. If this is omitted,
-        then the weights are initalized randomly using *Bengio's rule*
+        then the weights are initialized randomly using *Bengio's rule*
         (uniform distribution with scale :math:`4 \cdot \sqrt{6 /
         (\mathtt{n\_in} + \mathtt{n\_out})}`) and the biases are
         initialized to zero. If ``parameters`` is given, then is must
